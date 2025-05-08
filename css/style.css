@@ -98,12 +98,14 @@ ul {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+
 }
 .company-logo-section > div > ul > li > a > img {
   width: 124px;
   height: 48px;
   object-fit: contain;
 }
+
 
 /* Service section */
 .service-section {
@@ -501,7 +503,7 @@ ul {
   }
   .nav-right {
     position: absolute;
-    top: 50px;
+    top: 65px;
     width: 100%;
     background-color: transparent;
     backdrop-filter: blur(8px);
@@ -540,6 +542,10 @@ ul {
   .company-logo-section > div > ul {
     justify-content: center;
     gap: 0px;
+  }
+  
+  .com-logo>ul{
+    gap: 40px;
   }
   .company-logo-section > div > ul > li > a > img{
     height:38px;
@@ -732,6 +738,10 @@ ul {
   }
   .navigation-section {
     gap: 25px;
+  }
+  .company-logo-section>div>ul{
+    flex-direction: row;
+    gap: 20px;
   }
 }
 
