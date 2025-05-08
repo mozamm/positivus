@@ -753,5 +753,8 @@ ul {
   .aqs,.mid{
     display: none;
   }
+  .nav-cont>.left{
+    text-align: center;
+  }
   
 }
