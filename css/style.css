@@ -452,6 +452,7 @@ ul {
 .nav-contact > .left {
   color: white;
   padding: 40px 0 30px;
+  text-align: center;
 }
 .left > p {
   margin-bottom: 20px;
